@@ -35,7 +35,7 @@ body {
     overflow: hidden;
     z-index: 1;
 }
-.flag__birthday{
+.flag__bestie{
     display: flex;
     justify-content: space-between;
     transform: translateY(-200px);
@@ -46,10 +46,10 @@ body {
         transform: translateY(-10px);
     }
 }
-.flag__birthday .flag__left{
+.flag__bestie .flag__left{
     transform: rotate(-10deg) translate(-20px,30px);
 }
-.flag__birthday .flag__right{
+.flag__bestie .flag__right{
     transform: rotate(10deg) translate(20px,30px) scaleX(-1);
 }
 .content{
@@ -130,7 +130,7 @@ body {
     flex-direction: column;
     perspective: 1000px;
 }
-.title .happy, .title .birthday{
+.title .baka, .title .yaro{
     position: relative;
     text-shadow: 4px 4px var(--color-black), 
                 -4px 4px var(--color-black), 
@@ -141,10 +141,10 @@ body {
     display: flex;
     justify-content: center;
 }
-.title .happy{
+.title .baka{
     color: var(--color-white);
 }
-.title .happy span, .title .birthday span{
+.title .baka span, .title .yaro span{
     transform: translateY(50px);
     opacity: 0;
     visibility: hidden;
@@ -157,7 +157,7 @@ body {
         visibility: visible;
     }
 }
-.title .birthday{
+.title .bakayaro{
     color: var(--color-text-pink);
 }
 
